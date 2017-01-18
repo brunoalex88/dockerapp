@@ -62,7 +62,7 @@
 		<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
-			<version>11.2.0</version>
+			<version>11.2.0.1.0</version>
 		</dependency>
 		<!-- Weld (implementação do CDI) -->
 		<dependency>
@@ -93,11 +93,15 @@
 		</dependency>
 	</dependencies>
 	<repositories>
+	    <repository>
+	        <id>maven-central</id>
+	        <url>http://repo1.maven.org/maven2</url>
+	    </repository>
 		<repository>
 			<id>codelds</id>
 			<url>https://code.lds.org/nexus/content/groups/main-repo</url>
 		</repository>
-		<repository>
+ 		<repository>
 			<id>prime-repo</id>
 			<name>PrimeFaces Maven Repository</name>
 			<url>http://repository.primefaces.org</url>
