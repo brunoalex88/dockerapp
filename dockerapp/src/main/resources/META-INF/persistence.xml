@@ -7,7 +7,7 @@
 	<persistence-unit name="FinanceiroPU">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<properties>
-			<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle11gDialect" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect" />
 			<property name="hibernate.connection.url" value="jdbc:oracle:thin:@172.17.0.2:1521/xe" />
 			<property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver" />
 			<property name="hibernate.connection.username" value="system" />
